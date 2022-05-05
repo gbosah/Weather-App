@@ -48,7 +48,7 @@ const App = () => {
 
             <div className='flex flex-col'>
                   <p>{data.weather ? <img src={`http://openweathermap.org/img/w/${data.weather[0].icon}.png`} 
-                  alt="" /> : null}</p>
+                  alt="icongit" /> : null}</p>
               
                   <h3 className='text-xl text-gray-100 font-bold'>{data.weather ? data.weather[0].main : null}</h3>
             </div>

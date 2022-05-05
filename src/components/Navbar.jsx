@@ -4,7 +4,7 @@ const Navbar = ({handleChange, location, searchLocation}) => {
     return (
         <nav className='w-full sticky top-0 flex flex-col md:flex-row md:justify-around' >
             <div className='mr-2 md:mr-20 py-5 text-white flex px-5 '>
-            <img src="https://cdn.iconscout.com/icon/free/png-256/cloudy-weather-11-1147979.png" alt="" 
+            <img src="https://cdn.iconscout.com/icon/free/png-256/cloudy-weather-11-1147979.png" alt="background image" 
                 className='h-[50px] text-inherit items-center '/>
                 <h3 className='text-3xl px-10'>Weather App</h3>
             </div>
