@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 
 const App = () => {
@@ -37,7 +37,7 @@ const App = () => {
       <Navbar handleChange={handleChange} 
       location={location} 
       searchLocation={searchLocation}/>
-      {data.weather != undefined &&
+      {data.weather !== undefined &&
          <div className=' m-auto w-[300px] mt-20 bg-inherit '>
       
         <div className='flex flex-row space-x-10 justify-center items-center pr-10 py-2 bg-inherit '>
